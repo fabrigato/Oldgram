@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    
+    
+}
+
+/* Layout */
+
+.container{
+    width: 376.5px;
+    margin: 0 auto;
+    background: #ffffff;  
+}
+
+.post-section .container{
+    border-bottom: solid 30px #EDEDED;  
+}
+
+.post-section:last-of-type .container{
+    border-bottom: none;
+}
+
+.logo-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #C6C6C6;    
+    margin-bottom: 10px;        
+}
+.logo{
+    width: 127px;
+    margin: 16px 0px 18px 15px;
+}
+
+/* Images */
+
+.user-avatar-img{
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    margin: 16px 16px 18px 0px;
+    line-height: normal;
+}
+
+.profile-picture{
+    width: 34px;
+    margin-left: 10px;
+    border-radius: 100%;
+    
+}
+
+.post{
+    width: 375px;
+}
+
+.profile-pic-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Typography */
+.name{
+    margin: 10px 0px 0px 7px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.location{
+    margin: 2px 0px 13px 7px;
+    font-size: 12px;   
+}
+
+.username, .likes{
+    font-weight: bold;
+}
+
+.likes, .comment{
+    margin-left: 13px;
+}
+
+/* Icons */
+
+.heart-icon,
+.comment-icon,
+.dm-icon{
+    width: 23px;
+    margin-right: 5px;
+}
+
+.icons{
+    margin: 21px 0px 13px 10px;
+}
+
+.heart-icon:hover,
+.comment-icon:hover,
+.dm-icon:hover{
+    transform: scale(1.5);
+}
