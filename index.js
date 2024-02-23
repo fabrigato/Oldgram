@@ -28,7 +28,7 @@ const posts = [
     }
 ]
 
-const body = document.getElementById("body")
+const main= document.getElementById("main")
 
 function renderPost(){
     for(let i = 0; i < posts.length; i++){
@@ -105,9 +105,9 @@ function renderPost(){
        newDivEl.append(likesEl)
        newDivEl.append(commentEl)
         
-       // append everything to the new section element and then append it to the body element
+       // append everything to the new section element and then append it to the main element
        newSectionEl.append(newDivEl)
-       body.append(newSectionEl)
+       main.append(newSectionEl)
     }
 }
 
